@@ -1,12 +1,11 @@
-function print(array) // Print Array
+function print(array,number)// Print Array
 {
-  for(let i=0;i<array.length;i++)
-    console.log(array[i]);
-}
-function insertionsort(array) // Function of Insertion Sort
+  console.log(array);
+}  
+function insertionsort(array,number) // Function of Insertion Sort
 {
   let i,j,temp;
-  for(i=1;i<array.length;i++)
+  for(i=1;i<number;i++)
     {
       temp=array[i];
       j=i-1;
@@ -18,6 +17,14 @@ function insertionsort(array) // Function of Insertion Sort
       array[j+1]=temp;
     }
 }
-array=[6,4,3,7,2,9,8,1,5];// Declaration of Array
-insertionsort(array);// Calling Insertion Sort Function
-print(array);// Calling Print Function
+let number=prompt("Enter size: ");// Size of Array
+number=parseInt(number);
+let array=[];
+for(let i=0;i<number;i++)
+  {
+    array[i]=prompt("Enter the number: ");// Taking input from user
+    array[i]=parseInt(array[i]);
+  }   
+insertionsort(array,number);// Calling Insertion Sort Function
+print(array,number);// Calling Print Function
+

@@ -32,7 +32,8 @@ function integerpartition(number) //Function of Integer Partition
       last++;
     }
 }
-integerpartition(5); //Call Integer Partition Function
-
+let number=prompt("Enter the number: ");// Enter the number
+number=parseInt(number);
+integerpartition(number); //Call Integer Partition Function
 
 

@@ -20,9 +20,16 @@ function interpolation(array,number,search) //Function of Interpolation Search
     }
   return;
 }
-let array=[2,4,6,7,8,10];// Declaration of Array
-let number=array.length;
-let search=8;
+let number=prompt("Enter the size: ");// Size of Array
+number=parseInt(number);
+let array=[];
+for(let i=0;i<number;i++)
+  {
+    array[i]=prompt(array[i]);// Taking input from user
+    array[i]=parseInt(array[i]);
+  }
+let search=prompt("Enter the number to be searched: ");// Number to be searched
+search=parseInt(search);
 let searchposition=interpolation(array,number,search); //Call Interpolation Search Function 
 if(searchposition!=-1)
   console.log(searchposition); //Print Search Position 
