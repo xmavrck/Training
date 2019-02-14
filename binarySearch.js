@@ -12,17 +12,18 @@ function binarySearch(a,beg,end,item)
   } 
   else
   {
-    
+    //item in second half
     return binarySearch(a,mid+1,end,item);
   }
   return -1;
 }
+
 //test
 let inputArray=[];
-let size=prmpt("enter size of array");
+let size=prompt("enter size of array");
 for(let i=0;i<size;i++)
   {
-    inputArray[i]=prompt("enter sorted array"+(i+1));
+    inputArray[i]=prompt("enter sorted array");
   }
 let item=prompt("enter item to be searched");
 let result=binarySearch(inputArray,0,size-1,item);
