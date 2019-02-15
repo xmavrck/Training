@@ -1,8 +1,15 @@
+/*
 
-/*Program for Binary Search Algorithm in Scala*/
+@author akash
+For this program insertionSort.scala file is required to sort elements
+
+*/
+
+//Program for Binary Search Algorithm in Scala
 
 import scala.util.Random
 import util.control.Breaks._
+
 object BinarySearch extends App{
 	//getting size of array input from user
 	print("Enter number of elements=>")
@@ -10,16 +17,18 @@ object BinarySearch extends App{
 	//inserting random elements in array
 	for(i<-elemArray.indices) elemArray(i) = Random.nextInt(100)
 
+	//sorting and printing array using insertion sort
 	insertionSort.inSort(elemArray)
 	insertionSort.printArray(elemArray)
 
 	print("\nEnter Element To search=>")
 	val key = scala.io.StdIn.readInt()
-	var first, last, mid, flag: Int = 0
-	last = elemArray.length-1
+	var first, mid, flag: Int = 0
+	var last = elemArray.length-1
 	//Using break statement
 	breakable {
 		while(first <= last) {
+			//updating mid element position
 			mid = (first + last) / 2
 			if(key == elemArray(mid)) {
 				//If the element exists then set flag as 1
