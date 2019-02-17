@@ -59,7 +59,7 @@ class LinkedList// Class of LinkedList
     }
 }
 var l = new LinkedList();// Create object of LinkedList 
-var size=promp("Enter the size: ");// Enter the size
+var size=prompt("Enter the size: ");// Enter the size
 for(var i=0;i<size;i++)
   {
     number=prompt("Enter the number: ");// Taking input from user
