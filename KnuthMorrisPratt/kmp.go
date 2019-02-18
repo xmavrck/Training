@@ -1,9 +1,7 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
 	"strings"
 )
 
@@ -61,11 +59,13 @@ func kmp(pat string, txt string) {
 }
 
 func main() {
-
-	reader := bufio.NewReader(os.Stdin)
+	var txt, pat string
+	//reader := bufio.NewReader(os.Stdin)
 	fmt.Println("Enter string : ")
-	txt, _ := reader.ReadString('\n')
+	fmt.Scanf("%s", &txt)
+	//txt, _ := reader.ReadString('\n')
 	fmt.Println("Enter the string to be matched: ")
-	pat, _ := reader.ReadString('\n')
+	fmt.Scanf("%s", &pat)
+	//pat, _ := reader.ReadString('\n')
 	kmp(pat, txt)
 }
