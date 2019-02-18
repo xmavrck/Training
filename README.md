@@ -1,56 +1,57 @@
-List of Algorithms completed:
-*Backtracking:
+# List of Algorithms completed:
+
+* Backtracking:
 	 * Combination sum
 	 * N-queen
-*Brute Force
+* Brute Force
 	* Maximum Subarray
 	* Recursive Staircase
-*Datastructures
+* Datastructures
 	* Hash Table
 	* Heap
 	* Segment Tree
-*Divide and Conquer
+* Divide and Conquer
 	* Combination with and without repitition
 	* Tower of Hanoi
 	* Fast Powering
-*Dynamic Programming
+* Dynamic Programming
 	* Fibonacci Sequence
 	* Longest Common Subsequence
 	* Unique Path
-*Graphs
+* Graphs
 	* Breadth First Traversal
 	* Floyd Warshall
 	* Kruskal
-*Greedy Approach
+* Greedy Approach
 	* Djikstra
-*Linked list
+* Linked list
 	* Straight Traversal
 	* Reverse Traversal
-*Math
+* Math
 	* Bit Manipulation
 	* Discrete Fourier Transform
 	*  Sieve of Eratosthenes
-*Searching
+* Searching
 	* Binary Search
 	* Linear Search
 	* Interpolation Search
-*Sets
+* Sets
 	* Knapsack
 	* Cartesian Product
 	* Fischer Yates
-*Sorting
+* Sorting
 	* Insertion Sort
 	* Quick Sort
 	* Radix Sort
 	* Shell Sort
-*String
+* String
 	* KMP
 	* Rabin Karp
 	* Hamming Distance
-*Trees
+* Trees
 	* BFS
 	* DFS
 	* Fenwick Tree
-*Uncategorized
+* Uncategorized
 	* Matrix Rotation
 	* Rain terraces	
