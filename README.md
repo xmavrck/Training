@@ -4,18 +4,18 @@
 Here is the description of all files
 ```
 * [combinationSum.scala](Backtracking/combinationSum.scala) - Combinational Sum in Scala
-* [maximumSubarray.scala]('Brute Force'/maximumSubarray.scala) - Maximum Subarray in Scala
-* [recursiveStaircase.scala]('Brute Force'/recursiveStaircase.scala) - Recursive Staircase in Scala
+* [maximumSubarray.scala](Brute%20Force/maximumSubarray.scala) - Maximum Subarray in Scala
+* [recursiveStaircase.scala](Brute%20Force/recursiveStaircase.scala) - Recursive Staircase in Scala
 * [PolynomialHash.scala](Cryptography/PolynomialHash.scala) - Polynomial Hash in Scala
-* [segementTree.scala]('Data Structure'/segementTree.scala) - Segment Tree in Scala
-* [combinationWithRep.scala]('Divide and Conquer'/combinationWithRep.scala) - Combination With Repetition in Scala
-* [FastPowering.scala]('Divide and Conquer'/FastPowering.scala) - Fast Powering in Scala
-* [hanoi.scala]('Divide and Conquer'/hanoi.scala) - Tower of Hanoi in Scala
-* [Permutation.scala]('Divide and Conquer'/Permutation.scala) - Permutation with and without in Scala
-* [BellmanFord.scala]('Dynamic Programming'/BellmanFord.scala) - Bellman-ford algorithm in Scala
-* [Fibonacci.scala]('Dynamic Programming'/Fibonacci.scala) - Fibonacci series in Scala
-* [LCS.scala]('Dynamic Programming'/LCS.scala) - Longest Common Subsequence in Scala
-* [uniquePath.scala]('Dynamic Programming'/uniquePath.scala) - Unique Path finding algorithm in Scala
+* [segementTree.scala](Data%20Structure/segementTree.scala) - Segment Tree in Scala
+* [combinationWithRep.scala](Divide%20and%20Conquer/combinationWithRep.scala) - Combination With Repetition in Scala
+* [FastPowering.scala](Divide%20and%20Conquer/FastPowering.scala) - Fast Powering in Scala
+* [hanoi.scala](Divide%20and%20Conquer/hanoi.scala) - Tower of Hanoi in Scala
+* [Permutation.scala](Divide%20and%20Conquer/Permutation.scala) - Permutation with and without in Scala
+* [BellmanFord.scala](Dynamic%20Programming/BellmanFord.scala) - Bellman-ford algorithm in Scala
+* [Fibonacci.scala](Dynamic%20Programming/Fibonacci.scala) - Fibonacci series in Scala
+* [LCS.scala](Dynamic%20Programming/LCS.scala) - Longest Common Subsequence in Scala
+* [uniquePath.scala](Dynamic%20Programming/uniquePath.scala) - Unique Path finding algorithm in Scala
 * [FloydWarshall.scala](Graphs/FloydWarshall.scala) - Floyd-Warshall algorithm in Scala
 * [graphBFS.scala](Graphs/graphBFS.scala) - Breadth first search on a tree in Scala
 * [Prim.scala](Greedy/Prim.scala) - Prim's Algorithm in Scala
