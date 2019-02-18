@@ -44,3 +44,4 @@ Here is the description of all files
 
 ## NOTE:-
 * [graph.txt](Greedy/graph.txt) - required for [prim's](Greedy/Prim.scala) algorithm
+* For [Binary Search](Searching/BinarySearch.scala), [Jump Search or Block Search](Searching/jumpSearch.scala) and [Interpolation Search](Searching/interpolationSearch.scala), [Insertion Sort](Sorting/insertionSort.scala) is used in this case, But code can be utilized for personal use case as well.
