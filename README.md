@@ -1,5 +1,5 @@
-###### BFS
-###### Binary Search
+#### BFS
+#### Binary Search
 #### Bit Manipulation
 #### Block Search
 #### Cartesian Product 
