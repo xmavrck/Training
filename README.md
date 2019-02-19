@@ -1,13 +1,13 @@
-### BFS
-### Binary Search
-### Bit Manipulation
-### Block Search
-### Cartesian Product 
-### Combination
-### DFS
-### Fast Powering
-### Fibonacci Series
-### Fisher Yates
+###### BFS
+###### Binary Search
+###### Bit Manipulation
+###### Block Search
+###### Cartesian Product 
+###### Combination
+###### DFS
+###### Fast Powering
+###### Fibonacci Series
+###### Fisher Yates
 ### Floyd Warshell
 ### Hamming Distance
 ### Heap Sort
