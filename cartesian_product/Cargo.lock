@@ -1,0 +1,4 @@
+[[package]]
+name = "cartesian_product"
+version = "0.1.0"
+

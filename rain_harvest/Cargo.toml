@@ -1,0 +1,7 @@
+[package]
+name = "rain_harvest"
+version = "0.1.0"
+authors = ["shreyansh"]
+edition = "2018"
+
+[dependencies]
