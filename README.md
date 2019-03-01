@@ -1,4 +1,4 @@
-##Language: **JavaScript**
+## Language: **JavaScript**
 ``List of Algorithm implemented``
 1. TSP: Travelling Salesperson
 2. Binary Search
