@@ -1,7 +1,0 @@
-[package]
-name = "hamming_distance"
-version = "0.1.0"
-authors = ["shreyansh"]
-edition = "2018"
-
-[dependencies]
