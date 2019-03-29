@@ -1,0 +1,7 @@
+[package]
+name = "power_sets"
+version = "0.1.0"
+authors = ["shreyansh"]
+edition = "2018"
+
+[dependencies]

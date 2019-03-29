@@ -1,0 +1,8 @@
+[package]
+name = "regular_expression_matching"
+version = "0.1.0"
+authors = ["coderve <shreyansh.rastogi76@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "0.2"

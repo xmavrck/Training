@@ -1,0 +1,4 @@
+[[package]]
+name = "rabin_karp"
+version = "0.1.0"
+
